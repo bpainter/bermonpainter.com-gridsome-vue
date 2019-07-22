@@ -12,7 +12,7 @@
 
       <ul class="navigation-secondary">
           <li class="navigation-link"><g-link to="/styleguide">Styleguide</g-link></li>
-          <li class="navigation-link"><g-link to="http://comm310.bermonpainter.com/practice/w5/w5d1.html">Comm 310</g-link></li>
+          <li class="navigation-link"><a href"http://comm310.bermonpainter.com/practice/w5/w5d1.html">Comm 310</a></li>
           <li class="navigation-link"><a href="https://officehours.io/people/bermonpainter">Office Hours <small>Every Friday 7am-9am EST</small></a></li>
       </ul>
   </nav>
