@@ -33,7 +33,6 @@ export default {
   flex-direction: column;
   flex-wrap: nowrap;
   padding: 3% 3%;
-  /* flex: 1 2 25%; */
   width: 25%;
 }
 .masthead .logo {

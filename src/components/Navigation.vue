@@ -4,7 +4,7 @@
           <li class="navigation-link"><g-link to="/">Home</g-link></li>
           <li class="navigation-link"><g-link to="/speaking">Speaking</g-link></li>
           <li class="navigation-link"><g-link to="/community">Community</g-link></li>
-          <li class="navigation-link"><g-link to="/portfolio">Portfolio</g-link></li>
+          <!-- <li class="navigation-link"><g-link to="/portfolio">Portfolio</g-link></li> -->
           <li class="navigation-link"><g-link to="/thoughts">Thoughts</g-link></li>
           <li class="navigation-link"><g-link to="/contact">Contact</g-link></li>
       </ul>
