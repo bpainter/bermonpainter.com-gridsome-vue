@@ -2,7 +2,12 @@
   <div class="wrapper">
     <masthead />
     <navigation />
-    <slot/>
+
+    <main class="content">
+      <div class="content-wrapper">
+        <slot/>
+      </div>
+    </main>
   </div>
 </template>
 
@@ -29,5 +34,19 @@ query {
 <style>
 .wrapper {
   background-color: #ccc;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.content {
+  align-items: flex-start;
+  background-color: #1a202b;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: flex-end;
+  padding: 6% 3% 3%;
+  /* width: 62.76%; */
 }
 </style>

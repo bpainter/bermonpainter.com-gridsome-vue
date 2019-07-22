@@ -12,6 +12,7 @@
       <ul class="navigation-secondary">
           <li class="navigation-link"><g-link to="/styleguide">Styleguide</g-link></li>
           <li class="navigation-link"><g-link to="/comm310">Comm 310</g-link></li>
+          <li class="navigation-link"><a href="https://officehours.io/people/bermonpainter">Office Hours <small>Every Friday 7am-9am EST</small></a></li>
       </ul>
   </nav>
 </template>
@@ -29,5 +30,46 @@ export default {
 </script>
 
 <style>
+.navigation {
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-color: #930050;
+    /* flex: 1 1 235px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 205px;
+    padding: 3% 0;
+    width: 12.239%;
+}
+.navigation a {
+    color: #fff;
+    display: block;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+.navigation a:hover,
+.navigation a:focus {
+    background-color: #d80065;
+}
+.navigation a.active {
+    background-color: #1a202b;
+}
+.navigation a.active:hover,
+.navigation a.active:focus {
+    background-color: #242a3a;
+}
+.navigation-primary,
+.navigation-secondary {
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+}
+.navigation-secondary li:last-child small {
+    display: block;
+    font-size: .7em;
+    font-style: italic;
+    opacity: .6;
+}
 
 </style>

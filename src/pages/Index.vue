@@ -1,7 +1,6 @@
 <template>
   <Layout>
-    
-
+    <h1>Homepage</h1>
   </Layout>
 </template>
 
