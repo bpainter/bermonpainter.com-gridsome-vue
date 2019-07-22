@@ -3,7 +3,7 @@
     <article class="thought">
       <h1>Death to wireframes, long live rapid prototyping</h1>
 
-      <g-image src="~/assets/images/death-to-wireframes.jpg" />
+      <g-image src="~/assets/images/death-to-wireframes.jpg" alt="Illustrated crime scene with a wireframe chalk outline and a designer being escored away by police"/>
 
       <p>Have you ever heard a client, product owner, or stakeholder praise wireframes? Do you, as a designer, love spending hours creating or updating your own wireframes? No, me neither. For years we've tried to maintain the metaphor of the wireframe as part of our web design process. It's time to give up the ghost and finally let wireframes die.</p>
 

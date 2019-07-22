@@ -34,6 +34,20 @@ query {
 </static-query>
 
 <style>
+@font-face {
+  font-family: 'Fanwood';
+  src: url('../assets/fonts/fanwood.woff2') format('woff2'),
+        url('../assets/fonts/fanwood.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fanwood';
+  src: url('../assets/fonts/fanwood_italic.woff2') format('woff2'),
+        url('../assets/fonts/fanwood_italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
 .fade-enter-active {
   transition: opacity .35s;
 }

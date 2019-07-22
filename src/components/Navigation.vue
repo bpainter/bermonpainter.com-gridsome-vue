@@ -1,7 +1,8 @@
 <template>
   <nav class="navigation">
       <ul class="navigation-primary">
-          <li class="navigation-link"><g-link to="/">Home</g-link></li>
+          <li class="navigation-link"><g-link to="/" exact>Home</g-link></li>
+          <li class="navigation-link"><g-link to="/about">About</g-link></li>
           <li class="navigation-link"><g-link to="/speaking">Speaking</g-link></li>
           <li class="navigation-link"><g-link to="/community">Community</g-link></li>
           <!-- <li class="navigation-link"><g-link to="/portfolio">Portfolio</g-link></li> -->
@@ -11,7 +12,7 @@
 
       <ul class="navigation-secondary">
           <li class="navigation-link"><g-link to="/styleguide">Styleguide</g-link></li>
-          <li class="navigation-link"><g-link to="/comm310">Comm 310</g-link></li>
+          <li class="navigation-link"><g-link to="http://comm310.bermonpainter.com/practice/w5/w5d1.html">Comm 310</g-link></li>
           <li class="navigation-link"><a href="https://officehours.io/people/bermonpainter">Office Hours <small>Every Friday 7am-9am EST</small></a></li>
       </ul>
   </nav>
