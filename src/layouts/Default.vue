@@ -67,7 +67,7 @@ query {
   flex-direction: column;
   flex-grow: 1;
   justify-content: flex-end;
-  /* width: 62.76%; */
+  width: 62.76%;
 }
 .content-wrapper {
   height: 100%;

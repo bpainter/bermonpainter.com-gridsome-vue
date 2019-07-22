@@ -1,6 +1,6 @@
 <template>
   <header class="masthead">
-    <div class="logo"></div>
+    <div class="logo"><g-image src="~/assets/images/mustache.png" alt="bermonpainter.com"/></div>
     <ul class="social-links">
       <li class="social-links-icon"><a href="https://twitter.com/bermonpainter" class="social-links-icon-twitter">Twitter</a></li>
       <li class="social-links-icon"><a href="https://www.linkedin.com/in/bermonpainter/" class="social-links-icon-linkedin">LinkedIn</a></li>
@@ -24,7 +24,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .masthead {
   align-items: flex-start;
   justify-content: flex-end;
@@ -36,20 +36,27 @@ export default {
   width: 25%;
 }
 .masthead .logo {
-  background-color: #1adfcb;
+  background: #1adfcb url(../assets/images/mustache.png);
+  background-size: cover;
   border-radius: 60px 20px 60px 20px; 
-  height: 250px;
   margin-bottom: 100px;
   width: 100%;
+  img {
+    opacity: 0;
+    width: 100%;
+  }
 }
 .social-links {
   display: flex;
   list-style: none;
   margin: 0 0 20px 0;
   padding: 0;
+  a {
+    color: #fff;
+    font-size: .9em;
+  }
 }
 .social-links-icon {
-  background-color: #930050;
   margin-right: 3%;
 }
 
